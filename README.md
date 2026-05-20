@@ -1,1 +1,1 @@
-# AvoStrat_DI
+# MANNETEJUBILEE
