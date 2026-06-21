@@ -36,4 +36,3 @@ if st.button("Run Simulation"):
     st.write("Bob Bases:", bob_bases)
     st.write("Matching Positions:", matching_positions)
     st.write("Shared Secret Key:", shared_key)
-streamlit run app.py
