@@ -41,7 +41,7 @@ if st.button("Run Simulation"):
 
     if len(matching_positions) > 0:
         error_rate = (errors / len(matching_positions)) * 100
-            st.subheader("Key Metrics")
+        st.subheader("Key Metrics")
 
     col1, col2, col3, col4 = st.columns(4)
 
