@@ -48,7 +48,9 @@ if st.button("Run Simulation"):
     col1.metric("Qubits Sent", n)
     col2.metric("Matching Bases", len(matching_positions))
     col3.metric("Key Length", len(shared_key))
-    col4.metric("Errors", errors)    st.subheader("Key Metrics")
+    col4.metric("Errors", errors)  
+    
+    st.subheader("Key Metrics")
 
     col1, col2, col3, col4 = st.columns(4)
 
