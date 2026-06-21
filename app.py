@@ -64,7 +64,7 @@ if st.button("Run Simulation"):
         st.error(" Eavesdropping Detected")
     else:
         st.success(" Communication Secure")
-            data = pd.DataFrame({
+        data = pd.DataFrame({
         "Alice Bit": alice_bits,
         "Alice Basis": alice_bases,
         "Bob Basis": bob_bases,
