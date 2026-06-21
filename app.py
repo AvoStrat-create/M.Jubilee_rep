@@ -58,7 +58,7 @@ if st.button("Run Simulation"):
     col2.metric("Matching Bases", len(matching_positions))
     col3.metric("Key Length", len(shared_key))
     col4.metric("Errors", errors)
-        st.subheader("Security Assessment")
+    st.subheader("Security Assessment")
 
     if errors > 0:
         st.error(" Eavesdropping Detected")
